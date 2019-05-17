@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+h2{font-size: 2.5em}
+h3{font-size: 1.5em}
+
+
+.bgcolor1{
+    background-color: #F44336;
+}
+
+.bgcolor2{
+    background-color: #00BCD4;
+}
+
+.bgcolor3{
+    background-color: #E91E63;
+}
+
+.bgcolor4{
+    background-color: #8BC34A;
+}
+
+.bgcolor5{
+    background-color: #3F51B5;
+}
+
+.bgcolor6{
+    background-color: #FF9800;
+}
+
+section{
+    margin: 32px 0;
+}
+
+/* section 1 */
+.sf1 .content .container{
+    display: flex;
+}
+
+.sf1 .content .container > div{
+    width: 100%;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+/* section 2 */
+.sf2 .content .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.sf2 .content .container > div{
+    width: 100%;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+.sf2 .content2 .container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sf2 .content2 .container > div{
+    width: 100%;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+.sf2 .content3 .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sf2 .content3 .container > div{
+    width: 100%;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+.sf2 .content4 .container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sf2 .content4 .container > div{
+    width: 100%;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+/* section 3 */
+
+.sf3 .content .container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sf3 .content .container > div{
+    width: 200px;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+.sf3 .content2 .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sf3 .content2 .container > div{
+    width: 200px;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+.sf3 .content3 .container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.sf3 .content3 .container > div{
+    width: 200px;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+/*section 4*/
+
+.sf4 .content .container{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ccc;
+}
+
+.sf4 .content .container > div{
+    width: 100px;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+.sf4 .content2 .container{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ccc;
+}
+
+.sf4 .content2 .container > div{
+    width: 100px;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+.sf4 .content3 .container{
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+}
+
+.sf4 .content3 .container > div{
+    width: 100px;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+.sf4 .content4 .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+}
+
+.sf4 .content4 .container > div{
+    width: 100px;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+
+.sf4 .content5 .container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ccc;
+}
+
+.sf4 .content5 .container > div{
+    width: 100px;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+.sf4 .content6 .container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ccc;
+}
+
+.sf4 .content6 .container > div{
+    width: 100px;
+    color:#fff;
+    padding: 16px;
+    height: 100px;
+}
+
+/*section 5*/
+
+.sf5 .content .container{
+    display: flex;
+    align-items: flex-start;
+    background-color: #ccc;
+    height: 200px;
+}
+
+.sf5 .content .container > div{
+    width: 100px;
+    color:#fff;
+    padding: 16px;
+    /* height: 100px; */
+}
+
+.sf5 .content2 .container{
+    display: flex;
+    align-items: flex-end;
+    background-color: #ccc;
+    height: 200px;
+}
+
+.sf5 .content2 .container > div{
+    width: 100px;
+    color:#fff;
+    padding: 16px;
+    /* height: 100px; */
+}
+
+.sf5 .content3 .container{
+    display: flex;
+    align-items: center;
+    background-color: #ccc;
+    height: 200px;
+}
+
+.sf5 .content3 .container > div{
+    width: 100px;
+    color:#fff;
+    padding: 16px;
+    /* height: 100px; */
+}
+
+.sf5 .content4 .container{
+    display: flex;
+    align-items: stretch;
+    background-color: #ccc;
+    height: 200px;
+}
+
+.sf5 .content4 .container > div{
+    width: 100px;
+    color:#fff;
+    padding: 16px;
+    /* height: 100px; */
+}
+
+
+.sf5 .content5 .container{
+    display: flex;
+    align-items: baseline;
+    background-color: #ccc;
+    height: 200px;
+}
+
+.sf5 .content5 .container > div{
+    width: 100px;
+    color:#fff;
+    padding: 16px;
+}
+
+
+/*section 6*/
+
+.sf6 .content .container{
+    display: flex;
+    align-content: flex-start;
+    background-color: #ccc;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.sf6 .content .container > div{
+    width: 400px;
+    color:#fff;
+    padding: 16px;
+    /* height: 300px; */
+}
+
+.sf6 .content2 .container{
+    display: flex;
+    align-content: flex-end;
+    background-color: #ccc;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.sf6 .content2 .container > div{
+    width: 400px;
+    color:#fff;
+    padding: 16px;
+    /* height: 300px; */
+}
+
+.sf6 .content3 .container{
+    display: flex;
+    align-content: center;
+    background-color: #ccc;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.sf6 .content3 .container > div{
+    width: 400px;
+    color:#fff;
+    padding: 16px;
+    /* height: 300px; */
+}
+
+.sf6 .content4 .container{
+    display: flex;
+    align-content: stretch;
+    background-color: #ccc;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.sf6 .content4 .container > div{
+    width: 400px;
+    color:#fff;
+    padding: 16px;
+    /* height: 300px; */
+}
+

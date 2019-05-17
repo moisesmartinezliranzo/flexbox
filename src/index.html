@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+</head>
+
+<body>
+
+    <!-- <header>
+        Flebox
+    </header> -->
+
+    <!-- Section 1 -->
+    <section class="sf1">
+
+        <h2>Display Flex</h2>
+
+        <div class="content">
+            <pre>
+.container{
+    display:flex;
+}
+            </pre>
+
+            <div class="container">
+                <div class="el1 bgcolor1">Box 1</div>
+                <div class="el2 bgcolor2">Box 2</div>
+                <div class="el3 bgcolor3">Box 3</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Section 2 -->
+    <section class="sf2">
+
+        <h2>Flex Direction</h2>
+        
+            <div class="content">
+                    <h3>Row</h3>
+                <pre>
+.container{
+    display: flex;
+    flex-direction: row;
+}
+                </pre>
+    
+                <div class="container">
+                    <div class="el1 bgcolor4">Box 1</div>
+                    <div class="el2 bgcolor5">Box 2</div>
+                    <div class="el3 bgcolor6">Box 3</div>
+                </div>
+    
+            </div>
+
+            <div class="content2">
+                    <h3>Row Reverse</h3>
+                <pre>
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+                </pre>
+    
+                <div class="container">
+                    <div class="el1 bgcolor3">Box 1</div>
+                    <div class="el2 bgcolor4">Box 2</div>
+                    <div class="el3 bgcolor1">Box 3</div>
+                </div>
+    
+            </div>
+
+            <div class="content3">
+                    <h3>Column</h3>
+                <pre>
+.container{
+    display: flex;
+    flex-direction: column;
+}
+                </pre>
+    
+                <div class="container">
+                    <div class="el1 bgcolor5">Box 1</div>
+                    <div class="el2 bgcolor2">Box 2</div>
+                    <div class="el3 bgcolor3">Box 3</div>
+                </div>
+    
+            </div>
+
+            <div class="content4">
+                    <h3>Column Reverse</h3>
+                <pre>
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+                </pre>
+    
+                <div class="container">
+                    <div class="el1 bgcolor5">Box 1</div>
+                    <div class="el2 bgcolor2">Box 2</div>
+                    <div class="el3 bgcolor3">Box 3</div>
+                </div>
+    
+            </div>
+    
+    </section>
+
+    <!-- Section 3 -->
+    <section class="sf3">
+
+            <h2>Flex Wrap</h2>
+    
+            <div class="content">
+                <h3>No Wrap</h3>
+                <pre>
+.container{
+    display:flex;
+    flex-wrap: nowrap;
+}
+                </pre>
+    
+                <div class="container">
+                    <div class="el1 bgcolor1">Box 1</div>
+                    <div class="el2 bgcolor2">Box 2</div>
+                    <div class="el3 bgcolor3">Box 3</div>
+                    <div class="el1 bgcolor4">Box 4</div>
+                    <div class="el2 bgcolor5">Box 5</div>
+                    <div class="el3 bgcolor6">Box 6</div>
+                </div>
+    
+            </div>
+
+            <div class="content2">
+                    <h3>No Wrap</h3>
+                    <pre>
+    .container{
+        display:flex;
+        flex-wrap: wrap;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1">Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5">Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            <div class="content3">
+                    <h3>Wrap Reverse</h3>
+                    <pre>
+    .container{
+        display:flex;
+        flex-wrap: wrap-reverse;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1">Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5">Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+                </div>
+    
+    </section>
+
+    <!-- Section 4 -->
+    <section class="sf4">
+
+            <h2>Justity Content</h2>
+    
+            <div class="content">
+                <h3>Flext Start</h3>
+                <pre>
+.container{
+    display:flex;
+    justify-content: flex-start;
+}
+                </pre>
+    
+                <div class="container">
+                    <div class="el1 bgcolor1">Box 1</div>
+                    <div class="el2 bgcolor2">Box 2</div>
+                    <div class="el3 bgcolor3">Box 3</div>
+                    <div class="el1 bgcolor4">Box 4</div>
+                    <div class="el2 bgcolor5">Box 5</div>
+                    <div class="el3 bgcolor6">Box 6</div>
+                </div>
+    
+            </div>
+
+            <div class="content2">
+                    <h3>Flext End</h3>
+                    <pre>
+    .container{
+        display:flex;
+        justify-content: flex-end;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1">Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5">Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            <div class="content3">
+                    <h3>Flext Center</h3>
+                    <pre>
+    .container{
+        display:flex;
+        justify-content: flex-center;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1">Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5">Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            <div class="content4">
+                    <h3>Flext Space Between</h3>
+                    <pre>
+    .container{
+        display:flex;
+        justify-content: space-between;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1">Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5">Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            <div class="content5">
+                    <h3>Flext Space Around</h3>
+                    <pre>
+    .container{
+        display:flex;
+        justify-content: space-around;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1">Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5">Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            <div class="content6">
+                    <h3>Flext Space Evenly</h3>
+                    <pre>
+    .container{
+        display:flex;
+        justify-content: space-evenly;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1">Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5">Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            
+    
+    </section>
+
+     <!-- Section 5 -->
+     <section class="sf5">
+
+            <h2>Align Items</h2>
+    
+            <div class="content">
+                <h3>Flext Start</h3>
+                <pre>
+.container{
+    display:flex;
+    align-items: flex-start;
+}
+                </pre>
+    
+                <div class="container">
+                    <div class="el1 bgcolor1">Box 1 Box 1 Box 1</div>
+                    <div class="el2 bgcolor2">Box 2</div>
+                    <div class="el3 bgcolor3">Box 3</div>
+                    <div class="el1 bgcolor4">Box 4 Box 4 Box 4 Box 4 Box 4 Box 4</div>
+                    <div class="el2 bgcolor5">Box 5</div>
+                    <div class="el3 bgcolor6">Box 6</div>
+                </div>
+    
+            </div>
+
+            <div class="content2">
+                    <h3>Flext End</h3>
+                    <pre>
+    .container{
+        display:flex;
+        align-items: flex-end;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1">Box 1</div>
+                        <div class="el2 bgcolor2"> Box 2 Box 2 Box 2 Box 2 Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5"> Box 5 Box 5 Box 5 Box 5 Box 5 Box 5 Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            <div class="content3">
+                    <h3>Center</h3>
+                    <pre>
+    .container{
+        display:flex;
+        align-items: center;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1"> Box 1 Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3"> Box 3 Box 3 Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5"> Box 5 Box 5 Box 5 Box 5 Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            <div class="content4">
+                    <h3>Stretch</h3>
+                    <pre>
+    .container{
+        display:flex;
+        align-items: stretch;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1">Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5">Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            <div class="content5">
+                    <h3>Baseline</h3>
+                    <pre>
+    .container{
+        display:flex;
+        align-items: baseline;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1"> Box 1 Box 1 Box 1 Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4"> Box 4 Box 4</div>
+                        <div class="el2 bgcolor5">Box 5</div>
+                        <div class="el3 bgcolor6"> Box 6 Box 6 Box 6 Box 6 Box 6</div>
+                    </div>
+        
+            </div>
+
+        
+
+            
+    
+    </section>
+
+    <!-- Section 6 -->
+    <section class="sf6">
+
+            <h2>Align Content</h2>
+    
+            <div class="content">
+                <h3>Flext Start</h3>
+                <pre>
+.container{
+    display:flex;
+    align-items: flex-start;
+}
+                </pre>
+    
+                <div class="container">
+                    <div class="el1 bgcolor1">Box 1 Box 1 Box 1</div>
+                    <div class="el2 bgcolor2">Box 2</div>
+                    <div class="el3 bgcolor3">Box 3</div>
+                    <div class="el1 bgcolor4">Box 4 Box 4 Box 4 Box 4 Box 4 Box 4</div>
+                    <div class="el2 bgcolor5">Box 5</div>
+                    <div class="el3 bgcolor6">Box 6</div>
+                </div>
+    
+            </div>
+
+            <div class="content2">
+                    <h3>Flext End</h3>
+                    <pre>
+    .container{
+        display:flex;
+        align-items: flex-end;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1">Box 1</div>
+                        <div class="el2 bgcolor2"> Box 2 Box 2 Box 2 Box 2 Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5"> Box 5 Box 5 Box 5 Box 5 Box 5 Box 5 Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            <div class="content3">
+                    <h3>Center</h3>
+                    <pre>
+    .container{
+        display:flex;
+        align-items: center;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1"> Box 1 Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3"> Box 3 Box 3 Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5"> Box 5 Box 5 Box 5 Box 5 Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            <div class="content4">
+                    <h3>Stretch</h3>
+                    <pre>
+    .container{
+        display:flex;
+        align-items: stretch;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1">Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4">Box 4</div>
+                        <div class="el2 bgcolor5">Box 5</div>
+                        <div class="el3 bgcolor6">Box 6</div>
+                    </div>
+        
+            </div>
+
+            <div class="content5">
+                    <h3>Baseline</h3>
+                    <pre>
+    .container{
+        display:flex;
+        align-items: baseline;
+    }
+                    </pre>
+        
+                    <div class="container">
+                        <div class="el1 bgcolor1"> Box 1 Box 1 Box 1 Box 1</div>
+                        <div class="el2 bgcolor2">Box 2</div>
+                        <div class="el3 bgcolor3">Box 3</div>
+                        <div class="el1 bgcolor4"> Box 4 Box 4</div>
+                        <div class="el2 bgcolor5">Box 5</div>
+                        <div class="el3 bgcolor6"> Box 6 Box 6 Box 6 Box 6 Box 6</div>
+                    </div>
+        
+            </div>
+
+        
+
+            
+    
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>
